@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="pdf-container">
       <iframe
-        src="/nutrition-booklet.pdf"
+        src="/Sydney-Food-Pantry/nutrition-booklet.pdf"
         title="Nutrition Booklet"
         width="100%"
         height="100%"
