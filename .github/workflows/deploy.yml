@@ -31,7 +31,7 @@ jobs:
           npm list
       - name: Build
         run: |
-          npm run build
+          npm run build || (echo "Build failed" && npm run build --verbose && exit 1)
           ls -la dist/
       - name: Setup Pages
         uses: actions/configure-pages@v4
